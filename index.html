@@ -25,18 +25,31 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.html"><img class="img-responsive" src="img/logo-brand.svg" alt="logomarca do hackerspace"/></a>
+        <a class="navbar-brand hidden-xs" href="index.html"><img class="img-responsive" src="img/logo-brand.svg" alt="logomarca do hackerspace"/></a>
+		<a class="navbar-brand center visible-xs" href="index.html"><img class="img-responsive" src="img/logo-brand.svg" alt="logomarca do hackerspace"/></a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="index.html">Início</a></li>
-          <li><a href="sobre.html">Sobre</a></li>
-          <li><a href="contato.html">Contato</a></li>
-          <li><a href="projetos.html">Projetos</a></li>
-          <li><a href="galeria.html">Galeria</a></li>
-          <li><a href="imprensa.html">Imprensa</a></li>
+          <li class="active">
+		    <a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Início</a>
+		  </li>
+          <li>
+		    <a href="sobre.html"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Sobre</a>
+		  </li>
+		  <li>
+		    <a href="contato.html"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Contato</a>
+		  </li>
+		  <li>
+		    <a href="projetos.html"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> Projetos</a>
+		  </li>
+		  <li>
+		    <a href="galeria.html"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Galeria</a>
+		  </li>
+		  <li>
+		    <a href="imprensa.html"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span> Imprensa</a>
+		  </li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -45,13 +58,13 @@
   <!-- Corpo geral da página -->
   <div class="container">
     <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-12">
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	  <div class="col-sm-1"></div>
+        <div class="col-xs-12 col-sm-10">
+		  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
           </ol>
 
           <!-- Wrapper for slides -->
@@ -68,22 +81,11 @@
                 ...
               </div>
             </div>
-            ...
           </div>
-
-          <!-- Controls -->
-          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
         </div>
-
       </div>
-    </div>
+      <div class="col-sm-1"></div>
+	</div>
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
