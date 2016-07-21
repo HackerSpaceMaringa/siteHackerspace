@@ -1,11 +1,11 @@
-@font-face { 
-  font-family: Acrom; 
-  src: url('../fonts/The.Northern.Block_Acrom.otf'); 
-} 
-@font-face { 
-  font-family: Geogrotesque; 
-  src: url('../fonts/Geogtq-Bd.otf'); 
-} 
+@font-face {
+  font-family: Acrom;
+  src: url('../fonts/The.Northern.Block_Acrom.otf');
+}
+@font-face {
+  font-family: Geogrotesque;
+  src: url('../fonts/Geogtq-Bd.otf');
+}
 
 .navbar-inverse{
   background-color: #202020;
@@ -32,9 +32,34 @@ body{
   background-color: #151515;
 }
 
+a{
+  color: #1F976C;
+}
+
+a:hover{
+  color: #1F976C;
+}
+
 .background-white{
+  margin-top: 10px;
   background-color: #fff;
   height: 100%;
+}
+
+.background-white h1, h2, h3, h4{
+  font-family: Acrom;
+}
+
+.background-white h1{
+  font-size: 32pt;
+}
+
+.background-white h2{
+  font-size: 28pt;
+}
+
+.background-white h3{
+  font-size: 24pt;
 }
 
 .carousel .item {
@@ -48,6 +73,12 @@ body{
   color: #09FEB8;
 }
 
-h1 {
+h1 h2 h3{
   font-family: Geogrotesque;
+}
+
+.index-title{
+  font-size: 38pt;
+  color:white;
+  font-family: Acrom;
 }
