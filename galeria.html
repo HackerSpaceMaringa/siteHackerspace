@@ -8,6 +8,9 @@
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+  <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
   <link rel="stylesheet" href="css/hackerspaceStyle.css">
   <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -59,14 +62,62 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-1"></div>
-      <div class="col-xs-12 col-sm-10 background-white">
+      <div class="col-xs-12 col-sm-10 background-white jumbotron" >
+        <h1>Galeria de Imagens</h1>
+        <hr/>
+        <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+        <div id="blueimp-gallery" class="blueimp-gallery" >
+        <!-- The container for the modal slides -->
+        <div class="slides"></div>
+        <!-- Controls for the borderless lightbox -->
+        <h3 class="title"></h3>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="close">×</a>
+        <a class="play-pause"></a>
+        <ol class="indicator"></ol>
+        <!-- The modal dialog, which will be used to wrap the lightbox content -->
+        <div class="modal fade">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" aria-hidden="true">&times;</button>
+                <h4 class="modal-title"></h4>
+              </div>
+              <div class="modal-body next"></div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default pull-left prev">
+                  <i class="glyphicon glyphicon-chevron-left"></i>
+                  Previous
+                </button>
+                <button type="button" class="btn btn-primary next">
+                  Next
+                  <i class="glyphicon glyphicon-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-sm-1"></div>
+      <div id="links">
+        <a href="https://scontent.fbfh5-1.fna.fbcdn.net/v/t1.0-9/13151842_792909810840583_2777953177848037853_n.jpg?oh=35abc01a4fe1bea6240af829f792c8f6&oe=57EF6FB9" title="Banana" data-gallery>
+          <img src="https://scontent.fbfh5-1.fna.fbcdn.net/v/t1.0-9/13151842_792909810840583_2777953177848037853_n.jpg?oh=35abc01a4fe1bea6240af829f792c8f6&oe=57EF6FB9" alt="Banana" class="img-thumbnail">
+        </a>
+        <a href="https://scontent.fbfh5-1.fna.fbcdn.net/v/t1.0-9/13501699_812383448893219_3483402504348585318_n.jpg?oh=4bbea0d601298b8e5dbe74b2b45a1f74&oe=57EC31BC" title="Apple" data-gallery>
+          <img src="https://scontent.fbfh5-1.fna.fbcdn.net/v/t1.0-9/13501699_812383448893219_3483402504348585318_n.jpg?oh=4bbea0d601298b8e5dbe74b2b45a1f74&oe=57EC31BC" alt="Banana" class="img-thumbnail">
+        </a>
+        <a href="https://scontent.fbfh5-1.fna.fbcdn.net/v/t1.0-9/13179170_792915674173330_1908853423762759199_n.jpg?oh=6e1184c930f8f4162d6812f791e69b73&oe=581A3668" title="Orange" data-gallery>
+          <img src="https://scontent.fbfh5-1.fna.fbcdn.net/v/t1.0-9/13179170_792915674173330_1908853423762759199_n.jpg?oh=6e1184c930f8f4162d6812f791e69b73&oe=581A3668" alt="Banana" class="img-thumbnail">
+        </a>
+      </div>
+      <hr/>
     </div>
+    <div class="col-sm-1"></div>
   </div>
-
-
+</div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+  <script src="js/bootstrap-image-gallery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </body>
 </html>
