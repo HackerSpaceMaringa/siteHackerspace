@@ -1,3 +1,12 @@
+@font-face { 
+  font-family: Acrom; 
+  src: url('The.Northern.Block_Acrom.otf'); 
+} 
+@font-face { 
+  font-family: Geogrotesque; 
+  src: url('Geogtq-Bd.otf'); 
+} 
+
 .navbar-inverse{
   background-color: #202020;
 }
@@ -37,4 +46,8 @@ body{
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
   color: #09FEB8;
+}
+
+h1 {
+  font-family: Geogrotesque;
 }
