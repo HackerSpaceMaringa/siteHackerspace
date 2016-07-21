@@ -1,10 +1,10 @@
 @font-face { 
   font-family: Acrom; 
-  src: url('The.Northern.Block_Acrom.otf'); 
+  src: url('../fonts/The.Northern.Block_Acrom.otf'); 
 } 
 @font-face { 
   font-family: Geogrotesque; 
-  src: url('Geogtq-Bd.otf'); 
+  src: url('../fonts/Geogtq-Bd.otf'); 
 } 
 
 .navbar-inverse{
