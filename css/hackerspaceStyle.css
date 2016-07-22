@@ -84,8 +84,8 @@ h1 h2 h3{
 }
 
 .img-thumbnail{
-  width: 200px;
-  height: 200px;
+  height: 25vh;
+  width: auto;
 }
 
 .img-rounded{
@@ -111,4 +111,17 @@ img.thumb {
 .encontro{
   color: #1F976C;
   text-align: center;
+}
+
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+  background-color: #1F976C;
+  border-color: #166D4D;
+}
+
+.btn-primary:hover{
+  background-color: #166D4D;
+  border-color: #166D4D;
 }
