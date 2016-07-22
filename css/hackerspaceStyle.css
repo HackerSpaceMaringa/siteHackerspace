@@ -87,3 +87,14 @@ h1 h2 h3{
   width: 200px;
   height: 200px;
 }
+
+.img-rounded{
+  width: 150px;
+  height: 150px;
+}
+
+.thumbnail{
+  width: 32%;
+  height: auto;
+  float: left;
+}
