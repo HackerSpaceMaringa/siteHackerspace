@@ -125,3 +125,11 @@ img.thumb {
   background-color: #166D4D;
   border-color: #166D4D;
 }
+
+.social-media{
+  margin-left: 20px;
+}
+.social-media img{
+  max-width: 40px;
+  margin-right: 15px;
+}
