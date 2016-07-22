@@ -98,3 +98,12 @@ h1 h2 h3{
   height: auto;
   float: left;
 }
+
+img.thumb {
+  width: 32vw;
+  height: auto;
+}
+
+.media-body  p{
+  font-size: 12pt;
+}
