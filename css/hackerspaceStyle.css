@@ -46,7 +46,7 @@ a:hover{
   height: 100%;
 }
 
-.background-white h1, h2, h3, h4{
+.background-white h1, h2, h3, h4, h5{
   font-family: Acrom;
 }
 
@@ -73,9 +73,6 @@ a:hover{
   color: #09FEB8;
 }
 
-h1 h2 h3{
-  font-family: Geogrotesque;
-}
 
 .index-title{
   font-size: 38pt;
@@ -132,4 +129,30 @@ img.thumb {
 .social-media img{
   max-width: 40px;
   margin-right: 15px;
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 150px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 150px;
+  background-color: #101010;
+  color: #1F976C;
+}
+
+.sitemap{
+  font-size: 10pt;
+  margin-left: 5px;
 }
