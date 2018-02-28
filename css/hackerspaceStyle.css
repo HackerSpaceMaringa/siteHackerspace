@@ -11,9 +11,20 @@
   background-color: #202020;
 }
 
+.navbar > .container-fluid {
+  padding: 10px 24px;
+}
+
 .navbar-brand {
   padding-top: 0px;
   margin-top: 0px;
+  margin-right: 12px;
+}
+
+@media (min:width: 768px) {
+  .navbar-brand {
+    margin-right: 12px;
+  }
 }
 
 .navbar-brand img{
